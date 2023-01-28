@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mac-m1-pyinstaller"
+version = "0.1.0"
+description = ""
+authors = ["Chidi Williams <williamschidi1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mac_m1_pyinstaller"}]
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.7"
+pyinstaller = "^5.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
